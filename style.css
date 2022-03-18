@@ -198,3 +198,156 @@
   background-color: #ec5242;
 }
 
+/* speaker section */
+.speaker-section {
+  padding: 2rem 2rem;
+}
+
+.speakers {
+  text-align: center;
+}
+
+.docker-speaker {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.speaker-flex1 {
+  flex: 1;
+}
+
+.speaker-flex2 {
+  flex: 2;
+}
+
+.photo-speaker {
+  max-width: 100%;
+  height: auto;
+}
+
+.work-speaker {
+  color: #ec5242;
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+.bio-speaker {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.docker-speaker-2,
+.docker-speaker-3,
+.docker-speaker-4,
+.docker-speaker-5 {
+  display: none;
+}
+
+.docker-speaker-2.active,
+.docker-speaker-3.active,
+.docker-speaker-4.active,
+.docker-speaker-5.active {
+  display: flex;
+}
+
+.show-more {
+  background-color: #fff;
+  border: 0.1rem solid #9e9fa0;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+/* Footer Section */
+.footer-section {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  min-width: 10%;
+  height: auto;
+  flex: 1;
+}
+
+.go-home {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.footer-div {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.footer-text {
+  margin-bottom: 0.2rem;
+}
+
+.contact-us,
+.email {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+}
+
+/* mission section */
+
+.mission-container {
+  padding: 2rem 2rem;
+  text-align: center;
+  border-bottom: 0.2rem solid #e4e2e2;
+}
+
+.mission-top {
+  margin-bottom: 1rem;
+}
+
+.mission {
+  margin-bottom: 1rem;
+}
+
+.img-mission {
+  max-width: 100%;
+  height: auto;
+}
+
+/* past section */
+
+.past-section {
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.title-past {
+  margin-bottom: 1rem;
+}
+
+.des-past {
+  margin-bottom: 1rem;
+}
+
+.past-event1 {
+  background: url(./images/event1.jpg);
+  box-shadow: inset 0 0 0 1000px rgba(236, 82, 66, 0.7);
+  padding: 6rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.past-event2 {
+  background: url(./images/event2.jpg);
+  box-shadow: inset 0 0 0 1000px rgba(236, 82, 66, 0.7);
+  padding: 6rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.title-event {
+  color: #fff;
+}
