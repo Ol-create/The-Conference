@@ -85,7 +85,7 @@
   margin: 5px auto;
 }
 
-.menu.active .line:nth-child(2) {
+.menu-icon.active .line:nth-child(2) {
   opacity: 0;
 }
 
