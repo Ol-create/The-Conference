@@ -151,3 +151,50 @@
   font-size: 22px;
 }
 
+/* Style Program Section */
+
+.lang-section {
+  padding: 2rem 2rem;
+  background-color: #272a31;
+  color: #fff;
+}
+
+.pro-title {
+  text-align: center;
+}
+
+.lang-card {
+  background-color: #3d4049;
+  margin-top: 1rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.lang-icon {
+  min-width: 10%;
+  height: auto;
+}
+
+.lang {
+  color: #ec5242;
+}
+
+.join-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#join {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  padding: 1.8rem;
+  background-color: #ec5242;
+}
+
