@@ -391,3 +391,208 @@
 }
 
 /* desktop version */
+
+@media only screen and (min-width: 768px) {
+
+  /* Style Header Section */
+  .top-header {
+    display: block;
+  }
+
+  /* navbar desktop */
+
+  .navbar {
+    padding: 1rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .go-home {
+    display: block;
+  }
+
+  .list {
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  /* animate hamburger menu */
+
+  .menu-icon {
+    display: none;
+  }
+
+  .link {
+    color: #272a31;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  #brand-logo {
+    display: flex;
+  }
+
+  .footer-logo {
+    max-width: 25%;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-start;
+    gap: 20px;
+    transform: translateX(0);
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* main section */
+  .intro-section {
+    padding: 4rem;
+  }
+
+  .intro-welcome {
+    font-size: 1.8rem;
+  }
+
+  .intro-title {
+    font-size: 3rem;
+  }
+
+  .intro-desc {
+    border: 0.2rem solid rgb(215, 216, 215);
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .date {
+    font-size: 1.7rem;
+  }
+
+  /* program section */
+
+  .lang-section {
+    padding: 4rem;
+  }
+
+  .container {
+    width: 95%;
+    display: flex;
+    gap: 0.15rem;
+    margin: 4rem auto;
+  }
+
+  .lang-wiki {
+    font-size: 0.7rem;
+  }
+
+  .lang-card {
+    flex: 1;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  #join {
+    text-decoration: underline;
+    background-color: transparent;
+  }
+
+  /* speaker section */
+
+  .card-speaker-2,
+  .card-speaker-3,
+  .card-speaker-4,
+  .card-speaker-5 {
+    display: flex;
+  }
+
+  .show-more {
+    display: none;
+  }
+
+  .speaker-section {
+    padding: 4rem;
+  }
+
+  .speaker-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+
+  .docker-speaker {
+    width: 45%;
+  }
+
+  /* partner section */
+  .partner-container {
+    display: block;
+  }
+
+  .company {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  /* About page */
+
+  /* main section */
+  /* .previous-title-about {
+    display: none;
+  }
+
+  .main-title-about {
+    width: 70%;
+    margin: 1rem auto;
+    text-align: center;
+  } */
+
+  /* mission section */
+  .mission-container {
+    padding: 4rem;
+  }
+
+  .mission {
+    width: 70%;
+    margin: 0.5rem auto;
+  }
+
+  /* past section */
+  .past-section {
+    padding: 4rem;
+  }
+
+  .past-event-container {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  .past-event-container2 {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .past-event {
+    flex: 1;
+  }
+
+  /* partner section */
+
+  .partner-section-about {
+    display: none;
+  }
+
+  /* footer */
+  .footer-section {
+    padding: 4rem;
+  }
+
+  .the-footer-about {
+    background-color: #272a31;
+    color: #fff;
+  }
+}
