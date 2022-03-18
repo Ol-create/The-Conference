@@ -1,54 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interdonominational Conference</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>About us</title>
 </head>
 <body>
-  <header class="top-header">
-      <ul class="top-list"> 
-              <li class="top-item"><a href="#" class="top-link"><img class="top-img" src="./images/facebook.png" alt="Facebook" ></a></li>
-              <li class="top-item"><a href="#" class="top-link"><img class="top-img" src="./images/twitter.png" alt="Twitter" ></a></li>
-              <li class="top-item"><a class="top-link" href="#">English</a></li>
-              <li class="top-item"><a class="top-link" href="#">My Page</a></li>
-              <li class="top-item"><a class="top-link" href="./index.html">Logout</a></li>
+    <!-- Header -->
+    <header class="header">
+      <ul class="list-container">
+        <li><a href="#" class="link-header"><img class="main-header" src="./image/facebook.png" alt="Facebook Web" ></a></li>
+        <li><a href="#" class="link-header"><img class="main-header" src="./image/twitter.png" alt="Twitter Web" ></a></li>
+        <li><a class="link-header" href="#">English</a></li>
+        <li><a class="link-header" href="#">My Page</a></li>
+        <li><a class="link-header" href="#">Logout</a></li>
       </ul>
     </header>
-      <nav class="navbar">
-      <a href="./index.html" class="go-home"><img class="logo" id="brand-logo" src="./image/Event-logo.JPG" alt="Developers Summit" ></a>
-  <ul class="menu-container">
-    <li class="list"><a class="link" href="./index.html">Home</a></li>
-    <li class="list"><a class="link" href="./about.html">About</a></li> 
-    <li class="list"><a class="link" href="#">Join</a></li> 
-  </ul>
-  <div class="menu-icon">☰</div>
-</nav>
-  
-<!-- Introduction Section -->
-    <section class="intro-section">
-            <h3 class="intro-welcome">
-                Hello! Welcome to
-            </h3>
-            <h1 class="intro-title">International Developer Conference in 2022/2023</h1>
-            <p class="intro-desc">Computer technologies have become an important part in modern life at work, in recreation and social networking. AI technology is important because it enables human capabilities understanding, reasoning, planning, communication and perception - to be undertaken by software increasingly effetively, efficiently and at low cost.</p>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="./index.html" class="link-home"><img width="80px"  class="main-logo" id="logo-navbar" src="./image/Event-logo.JPG" alt="Developers Summit" ></a>
+    <ul class="menu">
+      <li class="list1"><a class="link1" href="./index.html">Home</a></li>
+      <li class="list1"><a class="link1" href="./about.html">About</a></li>
+      <li class="list1"><a class="link1" href="#">Join</a></li>
+    </ul>
+    <div class="hamburger">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+  </nav>
+
+  <!-- main -->
+
+  <main class="program-description">
+    <p class="previous-title previous-title-about">Hello! Welcome to</p>
+    <h1 class="main-title main-title-about">
+      International Developer Conference in 2022/2023
+    </h1>   
+    <p class="description1">Computer technologies have become an important part in modern life at work, in recreation and social networking. AI technology is important because it enables human capabilities understanding, reasoning, planning, communication and perception - to be undertaken by software increasingly effetively, efficiently and at low cost.</p>
     <p class="contact-us">Please contact us by email for further question about International Developer Conference 2022/2023</p>
     <p class="email"><strong><a href="mailto:oluola96@gmail.com">Send Email</a></strong></p>
-    </section>
 
-    <!-- mission section -->
-  <section class="mission-section mission-container">
-    <h2 class="mission-top mission-title">
+  </main>
+
+  <!-- mission section -->
+  <section class="about-section mission-section">
+    <h2 class="h2-about title-mission">
       Our mission
     </h2>
-    <div class="mission">
-      <p class="mission-text">
+    <div class="des-mission-container">
+      <p class="des-mission">
         We want to organize the world's information and make it universally accessible and useful. And also to empower every person and every organization on the planet to achieve more
       </p>
       <div class="img-mission-container">
-        <img src="./images/mission.jpg" alt="Our mission in conferences" class="img-mission">
+        <img src="./image/Germans-Improve.jpeg" alt="Our mission" class="img-mission">
       </div>
     </div>
   </section>
@@ -61,7 +70,6 @@
     <div class="past-event-container">
       <p class="des-past">
         Learn about the innovations enabling seamless experiences and create cutting-edge solutions in an expansive ecosystem.
-
       </p>
       <div class="past-event-container2">
         <div class="past-event past-event1">
@@ -73,37 +81,30 @@
       </div>
     </div>
   </section>
-      <!-- speaker section -->
-  <section class="speaker-section">
-    <h2 class="speakers">Featured Speaker</h2>
-    <div class="speaker-container">
-     
-    </div>
-    <button class="show-more">MORE</button>
 
-  </section>
-
-      <!-- Partners -->
-  <section class="partner-section partner-container">
-    <h3 class="partner-title">Partner</h3>
-    <div class="partner company">
+  <!-- partner sections -->
+  <section class="partner-section partner-section-about">
+    <h3 class="title-partner">Partner</h3>
+    <div class="companies company1">
       <img src="./image/google.png" alt="Google company" class="company-logo">
-      <img src="./image//mozilla.png" alt="Mozilla company" class="company-logo">
+      <img src="./image/mozilla.png" alt="Mozilla company" class="company-logo">
+      <img src="./image/facebook.png" alt="Facebook company" class="company-logo">
+    </div>
+
+    <div class="companies company2">
       <img src="./image/amazon.png" alt="Amazon company" class="company-logo">
-      <img src="./image/meta.png" alt="Meta company" class="company-logo">
       <img src="./image/tesla.png" alt="Tesla company" class="company-logo">
     </div>
-
   </section>
 
-  <!-- footer section -->
-  <footer class="footer-section footer-container">
-    <img class="footer-logo" id="brand-logo" src="./image/Event-logo.JPG" alt="Developers Summit" >
-    <div class="footer-div">
-      <p class="footer-text">2022 Touch Life</p>
-      <p class="footer-text">@ All Rights Reserved. Enriching human experience with technologies.</p>
+<!-- footer section -->
+  <footer class="the-footer the-footer-about">
+    <img width="100px" src="./image/Event-logo.JPG" alt="Developers Summit" class="main-logo">
+    <div class="des-footer">
+      <p class="detail-footer">2022 Touch Life</p>
+      <p class="detail-footer">@ All Rights Reserved. Enriching human experience with technologies.</p>
     </div>
   </footer>
-
+  
 </body>
 </html>
