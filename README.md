@@ -7,7 +7,7 @@ Many anoited men of God share their view on how to get to heaven with biblical t
 ### screen Shot of The Conference  Projection (Introduction Section)
 
 
-![image](https://imgur.com/aC5SzM7)
+![The-Conference](https://i.imgur.com/aC5SzM7.jpg)
 
 
 ## Built With
