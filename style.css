@@ -17,3 +17,33 @@
   body {
     font-family: lato, sans-serif;
   }
+
+  /* Header Section */
+
+  .top-img {
+    width: 12px;
+    height: auto;
+  }
+  
+  .top-item {
+    list-style-type: none;
+  }
+  
+  .top-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+  }
+
+.top-header {
+  padding: 0.2rem 2rem;
+  background-color: #272a31;
+  display: none;
+}
+
+.top-list {
+  display: flex;
+  justify-content: end;
+  gap: 4px;
+}
+
