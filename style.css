@@ -351,3 +351,43 @@
 .title-event {
   color: #fff;
 }
+
+/* partner section */
+.partner-section {
+  padding: 2rem 2rem;
+  text-align: center;
+  background-color: #272a31;
+}
+
+.partner-container {
+  display: none;
+}
+
+.partner-title {
+  color: #fff;
+}
+
+.company {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.company2 {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
+  width: 70%;
+}
+
+.company-logo {
+  min-width: 10%;
+  height: auto;
+  flex: 1;
+}
+
+/* desktop version */
