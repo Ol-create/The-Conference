@@ -122,3 +122,32 @@
   transform: translateX(0);
   transition: 0.7s ease-in-out;
 }
+
+/* Style Main Section */
+.intro-section {
+  padding: 3.5rem 2rem;
+  background-color: #f3f0f0;
+}
+
+.intro-welcome {
+  font-size: 22px;
+  color: #ec5242;
+}
+
+.intro-title {
+  font-family: cocogoose, lato, sans-serif;
+  color: #ec5242;
+}
+
+.intro-desc {
+  border: 0.2rem solid rgb(215, 216, 215);
+  padding: 0.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.date {
+  font-family: cocogoose, lato, sans-serif;
+  font-size: 22px;
+}
+
