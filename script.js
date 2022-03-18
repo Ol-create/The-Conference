@@ -84,10 +84,27 @@ const speaker = [
     cardContainer.appendChild(cardSpeaker);
     cardSpeaker.appendChild(photo);
     photo.appendChild(imag);
-    
+
     // cardContainer.appendChild(img);
     cardSpeaker.appendChild(desSpeaker);
     desSpeaker.appendChild(speakerName);
     desSpeaker.appendChild(who);
     desSpeaker.appendChild(bio);
   } 
+
+  // Create show how more button
+const showMore = document.querySelector('.show-more');
+
+showMore.addEventListener('click', () => {
+  for (let i = 2; i < speaker.length; i += 1) {
+    const cardSpeaker = document.querySelector(`.card-speaker-${i}`);
+
+    if (cardSpeaker.classList.contains('active')) {
+      cardSpeaker.classList.remove('active');
+      showMore.textContent = 'MORE';
+    } else {
+      cardSpeaker.classList.add('active');
+      showMore.textContent = 'LESS';
+    }
+  }
+});
