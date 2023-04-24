@@ -9,6 +9,7 @@ Many anoited men of God share their view on how to get to heaven with biblical t
 
 ![The-Conference](https://i.imgur.com/aC5SzM7.jpg)
 
+![all-devices-white](https://user-images.githubusercontent.com/65777402/234018406-10c33412-b81c-49fa-8530-e280b4ca5fbc.png)
 
 ## Built With
 
